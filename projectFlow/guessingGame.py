@@ -22,7 +22,26 @@ guess = int(input())
 
 ###############################   Same code, written differntly
 
-if guess != answer:
+# if guess != answer:
+#     if guess < answer:
+#         print("please guess higher")
+#     else:
+#         print('Please guess lower')
+#     guess = int(input())
+#     if guess == answer:
+#         print('well done, you got the answer')
+#     else:
+#         print('sorry, you didnt get the answer')
+# else:
+#     print('you got it the first time!')
+
+
+################################### coding challenge, write same code with guess equal answer first
+
+if guess == answer:
+    print('You got it first try!')
+
+else:
     if guess < answer:
         print("please guess higher")
     else:
@@ -32,5 +51,3 @@ if guess != answer:
         print('well done, you got the answer')
     else:
         print('sorry, you didnt get the answer')
-else:
-    print('you got it the first time!')
